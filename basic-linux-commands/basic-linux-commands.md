@@ -1,32 +1,56 @@
-## basic linux commands
+# Basic Linux Commands
 
-## check current directory`
-``` pwd
+## Check current directory
+```bash
+pwd
+```
 
-## list files and directory
-``` ls
+## List files
+```bash
+ls
+```
 
-## list all files including hidden files
-``` ls-la
+## List hidden files
+```bash
+ls -a
+```
 
-## change directory
-``` cd
+## Long listing
+```bash
+ls -l
+```
 
-## create directory
-``` mkdir my-folder
+## Change directory
+```bash
+cd
+```
 
-## remove an empty directory
-``` rmdir my-folder
+## Create a directory
+```bash
+mkdir project
+```
 
-## create a file
-``` touch file.txt
+## Remove a directory
+```bash
+rmdir project
+```
 
-## copy a file 
-``` cp file.txt backup.txt
+## Create a file
+```bash
+touch file.txt
+```
 
-## move or rename a file
-``` mv file.txt newfile.txt
+## Copy a file
+```bash
+cp file.txt backup.txt
+```
 
-## delete a file 
-``` rm file.txt
+## Move or rename a file
+```bash
+mv file.txt documents/
+```
 
+## Delete a file
+```bash
+rm file.txt
+```
