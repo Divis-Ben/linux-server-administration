@@ -1,26 +1,42 @@
-USER AND GROUP MANAGEMENT
+# User and Group Management
 
-Create a new user
+## Create a new user
+```bash
 sudo adduser john
+```
 
-Delete a user 
+## Delete a user
+```bash
 sudo deluser john
+```
 
-Create a new group
+## Create a new group
+```bash
 sudo groupadd developers
+```
 
-Add a user to a group
+## Add a user to a group
+```bash
 sudo usermod -aG developers john
+```
 
-Display the current user 
+## Display the current user
+```bash
 whoami
+```
 
-Display user ID and groups
+## Display user ID and groups
+```bash
 id
+```
 
-list all users
+## List all users
+```bash
 cat /etc/passwd
+```
 
-list all groups
+## List all groups
+```bash
 cat /etc/group
+```
 
