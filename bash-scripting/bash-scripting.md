@@ -1,73 +1,78 @@
 # Bash Scripting
 
-## Create a Bash script
+## Overview
 
-```bash
-nano hello.sh
-```
+This section demonstrates the basics of Bash scripting in Linux. Bash scripts help automate repetitive tasks, making system administration more efficient and reducing manual work.
 
-## First line (Shebang)
+## Objectives
+
+- Understand the structure of a Bash script
+- Create executable Bash scripts
+- Use variables
+- Display output with `echo`
+- Execute Linux commands inside a script
+- Run scripts from the terminal
+
+## Scripts Included
+
+### 1. hello.sh
+
+Prints a simple welcome message.
 
 ```bash
 #!/bin/bash
-```
 
-## Print text
-
-```bash
 echo "Hello, World!"
+echo "Welcome to Linux Server Administration"
 ```
 
-## Variables
+### 2. system-info.sh
+
+Displays basic system information.
 
 ```bash
-name="Ben"
-echo "Hello, $name"
+#!/bin/bash
+
+echo "Current User: $(whoami)"
+echo "Hostname: $(hostname)"
 ```
 
-## Read user input
+### 3. system-status.sh
+
+Displays useful system information.
 
 ```bash
-read -p "Enter your name: " name
-echo "Welcome, $name"
+#!/bin/bash
+
+echo "Disk Usage:"
+df -h
+
+echo "Current Directory:"
+pwd
 ```
 
-## If statement
+## How to Run a Script
 
-```bash
-if [ "$name" = "Ben" ]; then
-    echo "Welcome back!"
-fi
-```
-
-## For loop
-
-```bash
-for i in 1 2 3 4 5
-do
-    echo $i
-done
-```
-
-## While loop
-
-```bash
-count=1
-while [ $count -le 5 ]
-do
-    echo $count
-    count=$((count+1))
-done
-```
-
-## Make a script executable
+Make the script executable:
 
 ```bash
 chmod +x hello.sh
 ```
 
-## Run a script
+Run the script:
 
 ```bash
 ./hello.sh
 ```
+
+## Skills Demonstrated
+
+- Creating Bash scripts
+- Executing scripts
+- Using variables
+- Using Linux commands inside scripts
+- Basic automation
+
+## Conclusion
+
+Bash scripting is an essential skill for Linux system administrators and DevOps engineers. It enables automation of repetitive tasks and improves efficiency in managing Linux systems.
