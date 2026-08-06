@@ -119,13 +119,20 @@ linux-server-administration/
 ├── disk-management/
 ├── networking/
 ├── bash-scripting/
+│   ├── hello.sh
+│   ├── system-info.sh
+│   ├── system-status.sh
+│   └── bash-scripting.md
+│
 ├── screenshots/
 │   ├── linux-terminal.png
 │   ├── file-permission-changes.png
 │   ├── user-creation.png
 │   ├── package-installation.png
 │   ├── running-processes.png
-│   └── network-configuration.png
+│   ├── network-configuration.png
+│   └── bash-scripting.png
+│
 └── README.md
 ```
 
@@ -154,6 +161,10 @@ This section contains screenshots demonstrating important tasks completed during
 
 ### Network Configuration
 ![Network Configuration](screenshots/network-configuration.png)
+
+### Bash scripting
+![Bash scripting](screenshots/bash-scripting.png)
+
 
 ---
 
