@@ -119,6 +119,13 @@ linux-server-administration/
 ├── disk-management/
 ├── networking/
 ├── bash-scripting/
+├── screenshots/
+│   ├── linux-terminal.png
+│   ├── file-permission-changes.png
+│   ├── user-creation.png
+│   ├── package-installation.png
+│   ├── running-processes.png
+│   └── network-configuration.png
 └── README.md
 ```
 
@@ -128,14 +135,25 @@ linux-server-administration/
 
 This section contains screenshots demonstrating important tasks completed during this project.
 
-Examples include:
+## Screenshots
 
-* Linux terminal
-* File permission changes
-* User creation
-* Package installation
-* Running processes
-* Network configuration
+### Linux Terminal
+![Linux Terminal](screenshots/linux-terminal.png)
+
+### File Permission Changes
+![File Permission Changes](screenshots/file-permission-changes.png)
+
+### User Creation
+![User Creation](screenshots/user-creation.png)
+
+### Package Installation
+![Package Installation](screenshots/package-installation.png)
+
+### Running Processes
+![Running Processes](screenshots/running-processes.png)
+
+### Network Configuration
+![Network Configuration](screenshots/network-configuration.png)
 
 ---
 
